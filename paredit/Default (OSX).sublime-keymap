@@ -1,0 +1,97 @@
+[
+////
+//// Basic insertion
+{
+	"keys": ["alt+;"],
+	"command": "paredit_comment_dwim",
+	"context": [{"key": "should_paredit"}]
+ }
+
+////
+//// Deleting & Killing
+,{
+	"keys": ["super+delete"],
+	"command": "paredit_forward_kill_word",
+	"context": [{"key": "should_paredit"}]
+ }
+,{
+	"keys": ["super+backspace"],
+	"command": "paredit_backward_kill_word",
+	"context": [{"key": "should_paredit"}]
+ }
+
+////
+//// Movement & navigation
+,{
+	"keys": ["ctrl+super+f"],
+	"command": "paredit_forward",
+	"context": [{"key": "should_paredit"}]
+ }
+,{
+	"keys": ["ctrl+super+b"],
+	"command": "paredit_backward",
+	"context": [{"key": "should_paredit"}]
+ }
+ ,{
+	"keys": ["ctrl+super+n"],
+	"command": "paredit_forward_up",
+	"context": [{"key": "should_paredit"}]
+ }
+,{
+	"keys": ["ctrl+super+d"],
+	"command": "paredit_forward_down",
+	"context": [{"key": "should_paredit"}]
+ }
+,{
+	"keys": ["ctrl+super+u"],
+	"command": "paredit_backward_up",
+	"context": [{"key": "should_paredit"}]
+ }
+,{
+	"keys": ["ctrl+super+p"],
+	"command": "paredit_backward_down",
+	"context": [{"key": "should_paredit"}]
+ }
+
+////
+//// Depth-changing commands
+,{
+	"keys": ["super+shift+9"],
+	"command": "paredit_wrap_round",
+	"context": [{"key": "should_paredit"}]
+ }
+// Overrides default osx shortcuts
+// ,{
+// 	"keys": ["super+["],
+// 	"command": "paredit_wrap_square",
+// 	"context": [{"key": "should_paredit"}]
+//  }
+// ,{
+// 	"keys": ["super+shift+["],
+// 	"command": "paredit_wrap_curly",
+// 	"context": [{"key": "should_paredit"}]
+//  }
+,{
+	"keys": ["super+shift+'"],
+	"command": "paredit_meta_doublequote",
+	"context": [{"key": "should_paredit"}]
+ }
+// Overrides osx save
+// ,{
+// 	"keys": ["super+s"],
+// 	"command": "paredit_splice_sexp"
+//  }
+
+////
+//// Miscellaneous commands
+,{
+	"keys": ["super+shift+s"],
+	"command": "paredit_split_sexp",
+	"context": [{"key": "should_paredit"}]
+ }
+,{
+	"keys": ["super+shift+j"],
+	"command": "paredit_join_sexp",
+	"context": [{"key": "should_paredit"}]
+ }
+]

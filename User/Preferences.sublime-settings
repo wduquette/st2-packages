@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Slush & Poppies.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+    "auto_complete_commit_on_tab": true,
+    "scroll_past_end": true,
+    // Columns in which to display vertical rulers
+    "rulers": [74,80]
+
+}
