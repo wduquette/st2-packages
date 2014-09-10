@@ -4,6 +4,8 @@
 	[
 		"Vintage"
 	],
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": true,
     "auto_complete_commit_on_tab": true,
     "scroll_past_end": true,
     // Columns in which to display vertical rulers
